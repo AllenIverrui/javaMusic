@@ -1,39 +1,22 @@
 # java 演奏起风了，暗号
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## 起风了来自 https://www.bilibili.com/video/BV1d14y1H719/?spm_id_from=333.999.0.0&vd_source=d59d6683ea5c3aa042ed0d941e10993a 
+暗号，副音部分我没有对齐，不过也懒得对了，看的眼睛疼
+要是有哪位大哥闲的话对一下，对齐了和我说一声我感激不尽
+暗号钢琴谱来源 https://www.bilibili.com/video/BV12D4y1t7Ff/?spm_id_from=333.999.0.0
 
-#### 软件架构
-软件架构说明
+### 1、主奏与伴奏中支持输入的35个音符：
+“1--” ~ “7--”， “1-” ~ “7-”， “1” ~ “7”， “1+” ~ “7+”， “1++” ~ “7++”
+分别代表倍低音、低音、中音、高音、倍高音一共35个音符
 
+### 2、分别在主奏(.note)与伴奏(.accompaniments)中输入需要自动弹奏的音符
+2.1 每个音符之间用空格隔开(任意多个空格，推荐每个音符包括空格共占用4个占位符，以便主奏和伴奏音符对齐)
 
-#### 安装教程
+2.2 输入字符"0"，则会使音长额外延长一倍；
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2.3 输入除了上面35个音符以及“0”以外的任意字符不会对弹奏起任何作用；
 
-#### 使用说明
+2.4 如果需要换行填写，则需在上一行的末尾以及下一行的开头都加上空格;
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 3、音长里输入每两个音符之间的间隔时长，单位是毫秒(ms)
+建议输入整片谱子的最短的间隔，其余更长的的间隔可以利用延时加倍解决
