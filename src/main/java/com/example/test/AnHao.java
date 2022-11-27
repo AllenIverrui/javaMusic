@@ -369,6 +369,6 @@ public class AnHao {
          * 副音部分
          */
 //        new AudioPlay(220).loadNotes(accompaniments+accompaniments1 ).start();
-//        new Animation(220).loadNotes(notes+note1 ).start();
+        new Animation(220).loadNotes(notes+note1 ).start();
     }
 }
