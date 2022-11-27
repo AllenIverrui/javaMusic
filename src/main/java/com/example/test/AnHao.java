@@ -107,6 +107,11 @@ public class AnHao {
                         " 5+  0   3+  0   1+  1+  3+  5+  " +
                         " 5+  0   3+  5+  5+  0   3+  5+  " +
 
+                        //21
+                        " 5+  0   3+  0   1+  1+  3+  5+  " +
+                        " 5+  0   3+  5+  5+  0   3+  5+  " +
+                        " 6+  6+  6+  6+  6+  0   5+  0   " +
+                        " 6+  6+  6+  6+  6+  5+  5+  6+  " +
 
                         //25
                         " 5+  7+  0+  6+  6+  5+  6+  7+  " +
@@ -155,7 +160,7 @@ public class AnHao {
 
         String accompaniments =
                 " 0   0   0   0   " +
-                        " 6-- 2-  3-  5-  0   2-  3-  5-  " +
+                        " 6-- 2-  3-  5-  5-  2-  3-  5-  " +
                         " 7-- 2-  3-  5-  0   2-  3-  5-  " +
                         " 1-  2-  3-  5-  0   2-  3-  5-  " +
 
@@ -170,15 +175,13 @@ public class AnHao {
                         " 1-  5-  1   5-  3   5-  1   5-  " +
                         " 1-  5-  1   5-  3   5-  1   5-  " +
                         " 6-- 3-  6-  3-  1   3-  6-  3-  " +
-
+                        //13
                         " 6-- 3-  6-  3-  1   3-  6-  3-  " +
                         " 4-- 1-  4-  1-  6-  1-  4-  1-  " +
                         " 4-- 1-  4-  1-  6-  1-  4-  1-  " +
-
-                        //这是我们的暗号
                         " 5-- 2-  5-  2-  7-  2-  5-  2-  " +
+                        //17
                         " 5-- 2-  5-  2-  7-  2-  5-  2-  " +
-
                         " 1-  5-  1   5-  3   5-  1   5-  " +
                         " 1-  5-  1   5-  3   5-  1   5-  " +
                         " 6-- 3-  6-  3-  1   3-  6-  3-  " +
@@ -364,11 +367,13 @@ public class AnHao {
 
 
 
+//        new AudioPlay(100).loadNotes(notes+note1 ).start();
+        //正常速度
         new AudioPlay(220).loadNotes(notes+note1 ).start();
         /**
          * 副音部分
          */
-//        new AudioPlay(220).loadNotes(accompaniments+accompaniments1 ).start();
+        new AudioPlay(220).loadNotes(accompaniments+accompaniments1 ).start();
         new Animation(220).loadNotes(notes+note1 ).start();
     }
 }
