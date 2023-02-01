@@ -1,9 +1,11 @@
-# java 演奏起风了，暗号
+# java 演奏起风了，暗号，反方向的钟
 
-## 起风了来自 https://www.bilibili.com/video/BV1d14y1H719/?spm_id_from=333.999.0.0&vd_source=d59d6683ea5c3aa042ed0d941e10993a 
+ 起风了来自 https://www.bilibili.com/video/BV1d14y1H719/?spm_id_from=333.999.0.0&vd_source=d59d6683ea5c3aa042ed0d941e10993a 
 暗号，副音部分我没有对齐，不过也懒得对了，看的眼睛疼
 要是有哪位大哥闲的话对一下，对齐了和我说一声我感激不尽
-暗号钢琴谱来源 https://www.bilibili.com/video/BV12D4y1t7Ff/?spm_id_from=333.999.0.0
+《暗号》钢琴谱来源 https://www.bilibili.com/video/BV12D4y1t7Ff/?spm_id_from=333.999.0.0
+
+《反方向的钟》钢琴谱来源 https://www.bilibili.com/video/BV1mL411w7NJ/?vd_source=d59d6683ea5c3aa042ed0d941e10993a
 
 ### 1、主奏与伴奏中支持输入的35个音符：
 “1--” ~ “7--”， “1-” ~ “7-”， “1” ~ “7”， “1+” ~ “7+”， “1++” ~ “7++”

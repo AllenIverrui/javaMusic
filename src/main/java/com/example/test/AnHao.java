@@ -369,11 +369,11 @@ public class AnHao {
 
 //        new AudioPlay(100).loadNotes(notes+note1 ).start();
         //正常速度
-        new AudioPlay(220).loadNotes(notes+note1 ).start();
+        new AudioPlay(280).loadNotes(notes+note1 ).start();
         /**
          * 副音部分
          */
-        new AudioPlay(220).loadNotes(accompaniments+accompaniments1 ).start();
-        new Animation(220).loadNotes(notes+note1 ).start();
+        new AudioPlay(280).loadNotes(accompaniments+accompaniments1 ).start();
+        new Animation(280).loadNotes(notes+note1 ).start();
     }
 }
