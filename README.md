@@ -1,5 +1,7 @@
 # java 演奏起风了，暗号，反方向的钟
 
+效果演示 【听一千遍反方向的钟，可不可以回到你爱我的那个时候】 https://www.bilibili.com/video/BV15P4y197Pw/?share_source=copy_web&vd_source=8fc1eb17a106d8ec49c374d5f60348b4
+
  起风了来自 https://www.bilibili.com/video/BV1d14y1H719/?spm_id_from=333.999.0.0&vd_source=d59d6683ea5c3aa042ed0d941e10993a 
 暗号，副音部分我没有对齐，不过也懒得对了，看的眼睛疼
 要是有哪位大哥闲的话对一下，对齐了和我说一声我感激不尽
